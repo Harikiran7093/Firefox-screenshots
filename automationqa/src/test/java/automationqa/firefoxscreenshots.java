@@ -21,25 +21,25 @@ public class firefoxscreenshots {
 		driver.findElement(By.linkText("https://www.getcalley.com/")).click();
 		
 		File f1= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(f1, new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot1.jpg"));
+		Files.copy(f1, new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot1.png"));
 		driver.navigate().back();
 
 		driver.findElement(By.linkText("https://www.getcalley.com/calley-call-from-browser/")).click();
 		
 		File f2= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(f2, new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot2.jpg"));
+		Files.copy(f2, new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot2.png"));
 		driver.navigate().back();
 		
 		driver.findElement(By.linkText("https://www.getcalley.com/calley-pro-features/")).click();
 		
 		File f3= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(f3,new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot3.jpg"));
+		Files.copy(f3,new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot3.png"));
 		driver.navigate().back();
 		
 		driver.findElement(By.linkText("https://www.getcalley.com/best-auto-dialer-app/")).click();
 		
 		File f4= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(f4, new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot4.jpg"));
+		Files.copy(f4, new File("C:\\Users\\LENOVO\\Pictures\\Screenshots\\Firefox screenshots\\screenshot4.png"));
 		driver.navigate().back();
 		
 		driver.findElement(By.linkText("https://www.getcalley.com/how-calley-auto-dialer-app-works/")).click();
